@@ -30,12 +30,14 @@
         h1 {
             color: #2c3e50;
             margin-bottom: 10px;
+            font-size: 24px; /* Smaller title */
         }
         .chart-container {
             margin-bottom: 20px;
             background: #fff;
             border-radius: 5px;
             border: 1px solid #ddd;
+            overflow: hidden; /* Prevents content from overflowing */
         }
         .chart-title {
             margin: 0;
@@ -46,14 +48,15 @@
             font-size: 18px;
         }
         .chart-content {
-            padding: 10px;
             display: flex;
             justify-content: center;
+            padding: 0; /* Remove padding */
         }
         iframe {
             border: none;
-            width: 100%;
+            width: 450px;
             height: 260px;
+            display: block; /* Removes extra space below iframe */
         }
         footer {
             margin-top: 20px;
