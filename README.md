@@ -4,7 +4,9 @@
 https://benb0jangles.github.io/Dustduino/
 #
 ESP32-S3-Nano Environmental Monitoring System
+#
 Overview
+#
 This project uses an ESP32-S3-Nano to create an environmental monitoring system that measures temperature, humidity, and dust particle concentration. The data is displayed on a 128x32 OLED screen and also sent to ThingSpeak for remote monitoring and data visualization.
 Features
 
